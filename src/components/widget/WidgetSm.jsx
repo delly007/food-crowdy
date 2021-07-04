@@ -9,20 +9,53 @@ export default function WidgetSm() {
                 <li className="widgetSmListItem">
                     <img src="https://res.cloudinary.com/foodcrowdy/image/upload/v1624291608/products/cnnlt4hr1dqrxxofiatp.png" alt="New Product" className="widgetSmImg" />
                     <div className="widgetSmProduct">
-                        <span className="widgetSmProductName">Panla(Hake Fish)</span>
+                        <span className="widgetSmProductName">Panla</span>
                         <span className="widgetSmProductInfo">
-                            Panla also known as hake fish 
-                            is good for your soups and 
-                            vegetables. Hake is particularly 
-                            healthy, nutritious, easy to 
-                            digest and therefore lends itself 
-                            for consumption by children and the 
-                            elderly.
+                            Panla aka hake...
                         </span>
                     </div>
                     <button className="widgetSmButton">
-                        <Visibility />
-                        
+                        <Visibility className="widgetSmIcon" />
+                        View
+                    </button>
+                </li>
+                <li className="widgetSmListItem">
+                    <img src="https://res.cloudinary.com/foodcrowdy/image/upload/v1624291608/products/cnnlt4hr1dqrxxofiatp.png" alt="New Product" className="widgetSmImg" />
+                    <div className="widgetSmProduct">
+                        <span className="widgetSmProductName">Panla</span>
+                        <span className="widgetSmProductInfo">
+                            Panla aka hake...
+                        </span>
+                    </div>
+                    <button className="widgetSmButton">
+                        <Visibility className="widgetSmIcon" />
+                        View
+                    </button>
+                </li>
+                <li className="widgetSmListItem">
+                    <img src="https://res.cloudinary.com/foodcrowdy/image/upload/v1624291608/products/cnnlt4hr1dqrxxofiatp.png" alt="New Product" className="widgetSmImg" />
+                    <div className="widgetSmProduct">
+                        <span className="widgetSmProductName">Panla</span>
+                        <span className="widgetSmProductInfo">
+                            Panla aka hake...
+                        </span>
+                    </div>
+                    <button className="widgetSmButton">
+                        <Visibility className="widgetSmIcon" />
+                        View
+                    </button>
+                </li>
+                <li className="widgetSmListItem">
+                    <img src="https://res.cloudinary.com/foodcrowdy/image/upload/v1624291608/products/cnnlt4hr1dqrxxofiatp.png" alt="New Product" className="widgetSmImg" />
+                    <div className="widgetSmProduct">
+                        <span className="widgetSmProductName">Panla</span>
+                        <span className="widgetSmProductInfo">
+                            Panla aka hake...
+                        </span>
+                    </div>
+                    <button className="widgetSmButton">
+                        <Visibility className="widgetSmIcon" />
+                        View
                     </button>
                 </li>
             </ul>
