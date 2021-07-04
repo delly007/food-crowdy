@@ -2,3 +2,163 @@
     flex: 4;
     padding: 20px;
 }
+
+.productTitleContainer {
+    color: #263238;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productTitle {}
+
+.productAddBtn {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: #26a69a;
+    border-radius: 5px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+.productContainer {
+    display: flex;
+    margin-top: 20px;
+}
+
+.productView {
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px #004d40;
+    box-shadow: 0px 0px 15px -10px #004d40;
+}
+
+.productUpdate {
+    flex: 2;
+    padding: 20px;
+    margin-left: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px #004d40;
+    box-shadow: 0px 0px 15px -10px #004d40;
+}
+
+.productViewTop {
+    display: flex;
+    align-items: center;
+}
+
+.productViewImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.productViewTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.productViewName {
+    font-weight: 600;
+}
+
+.productViewCategory {
+    font-weight: 300;
+}
+
+.productViewBottom {
+    margin-top: 20px;
+}
+
+.productViewTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: darkgray;
+}
+
+.productViewInfo {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #555;
+}
+
+.productViewIcon {
+    font-size: 16px !important;
+}
+
+.productViewInfoTitle {
+    margin-left: 10px;
+}
+
+.productUpdateImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.productUpdateForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.productUpdateTitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.productUpdateItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.productUpdateItem>label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.productUpdateInput {
+    border: none;
+    height: 30px;
+    width: 250px;
+    border-bottom: 1px solid darkgray;
+}
+
+.productUpdateTextarea {
+    border: none;
+    width: 250px;
+    border-bottom: 1px solid darkgray;
+}
+
+.productUpdateLeft {}
+
+.productUpdateRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.productUpdateBtn {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #26a69a;
+    color: whitesmoke;
+}
+
+.productUpdateUpload {
+    display: flex;
+    align-items: center;
+}
+
+.productUpdateIcon {
+    cursor: pointer;
+}
