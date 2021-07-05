@@ -1,3 +1,60 @@
 .newProduct {
     flex: 4;
+    padding: 20px;
+}
+
+.newProductTitle {}
+
+.newProductForm {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newProductItem {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.newProductItem>label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+}
+
+.newProductItem>input {
+    height: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.newProductRadio>input {
+    margin-top: 15px;
+}
+
+.newProductRadio>input {
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.newProductSelect {
+    height: 40px;
+    border-radius: 5px;
+}
+
+.newProductBtn {
+    /* height: 40px; */
+    width: 200px;
+    border: none;
+    color: whitesmoke;
+    padding: 7px 10px;
+    background-color: #26a69a;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
 }
